@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+header {
+  width: 100vw;
+  height: 600px;
+  background: url(./images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(210, 67%, 98%);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+  margin: 80px;
+  margin-top: 50px;
+}
+header button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  margin: 80px;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  box-shadow: hsla(209, 11%, 55%, 0.493) 2px 2px 10px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro h1,
+p {
+  width: 400px;
+  margin-left: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+.intro p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.intro button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  width: 250px;
+  margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: hsla(209, 11%, 55%, 0.493) 2px 2px 10px;
+}
+main img {
+  width: 40%;
+  margin-right: 80px;
+}
+.grow {
+  width: 1100px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: hsla(209, 11%, 55%, 0.493) 3px 3px 15px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grow-info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.grow-info h2 {
+  margin-left: 80px;
+}
+.grow img {
+  width: 300px;
+  margin-right: 50px;
+}
+.convo {
+  width: 1100px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: hsla(209, 11%, 55%, 0.493) 3px 3px 15px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.convo img {
+  width: 300px;
+  margin-left: 80px;
+}
+.convo-info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-right: 50px;
+}
+.convo h2 {
+  margin-left: 80px;
+}
+.users {
+  width: 1100px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: hsla(209, 11%, 55%, 0.493) 3px 3px 15px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.users-info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.users-info h2 {
+  margin-left: 80px;
+}
+.users img {
+  width: 300px;
+  margin-right: 50px;
+}
+.build {
+  background-color: white;
+  width: 600px;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: hsla(209, 11%, 55%, 0.493) 3px 3px 20px;
+  margin: auto;
+  margin-top: 80px;
+  position: relative;
+  top: 90px;
+}
+.build-content {
+  padding: 10%;
+  text-align: center;
+}
+.build button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  width: 250px;
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: hsla(209, 11%, 55%, 0.493) 2px 2px 10px;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  width: 100vw;
+  height: 500px;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+.contact-info div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 80px;
+  width: 350px;
+}
+.contact-info i {
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+.contact-info p {
+  display: inline-block;
+  margin: 0;
+}
+.logo-II {
+  margin: 180px 130px 30px;
+}
+.location {
+  margin-bottom: 20px;
+}
+.phone {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#I {
+  text-decoration: none;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+#II {
+  text-decoration: none;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+#III {
+  text-decoration: none;
+  list-style-type: none;
+}
+#IV {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+#V {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+#VI {
+  list-style-type: none;
+}
+.icon {
+  text-align: center;
+  width: 25%;
+  margin: 0;
+}
+i {
+  color: white;
+  font-size: 10px;
+  border: solid;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+}
+i:hover{
+    color: #ff9adb;
+    cursor: pointer;
+}
+.copyright {
+  margin-top: 160px;
+  font-size: 14px;
+  margin-left: 0;
+  width: fit-content;
+}
+button:hover{
+    background-color: #ff9adb;
+    cursor: pointer;
+}
+@media (max-width: 900px) {
+  body {
+    margin: auto;
+    background-size: 100vw;
+  }
+  header {
+    background: url(./images/bg-hero-mobile.svg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: fit-content;
+    background-color: hsl(210, 67%, 98%);
+  }
+  .container {
+    flex-direction: row;
+  }
+  .logo {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  header button {
+    padding: 7px;
+    width: 100px;
+    margin-right: 40px;
+    margin-top: 30px;
+  }
+  .intro h1,
+  p {
+    text-align: center;
+    width: 69%;
+  }
+  .intro button {
+    width: 70%;
+  }
+  main {
+    flex-direction: column;
+  }
+  main img {
+    width: 90%;
+    margin: auto;
+  }
+  .grow {
+    width: 80%;
+    height: 550px;
+    flex-direction: column-reverse;
+  }
+  .grow img {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .grow-info h2 {
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+  .grow-info {
+    margin-bottom: 40px;
+    margin-left: -30px;
+  }
+  .convo {
+    width: 80%;
+    height: 550px;
+    flex-direction: column;
+  }
+  .convo img {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .convo-info h2 {
+    width: 300px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+  .convo-info {
+    margin-bottom: 70px;
+  }
+  .users {
+    width: 80%;
+    height: 550px;
+    flex-direction: column-reverse;
+  }
+  .users img {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .users-info h2 {
+    margin-left: 150px;
+    margin-bottom: 20px;
+  }
+  .users-info {
+    margin-bottom: 40px;
+    width: 360px;
+    margin-left: -50px;
+  }
+  .build {
+    width: 80%;
+    height: 180px;
+  }
+  .build-content {
+    font-size: 10px;
+  }
+  footer {
+    height: 1000px;
+  }
+  .footer-info {
+    flex-direction: column;
+  }
+  .contact-info div {
+    margin-left: 0px;
+  }
+  .logo-II {
+    margin-left: 35px;
+  }
+  .location {
+    text-align: left;
+  }
+  .phone {
+    align-items: left;
+  }
+  .email {
+    margin-bottom: 40px;
+  }
+  .contact-info p {
+    text-align: left;
+  }
+  .contact-info i {
+    align-self: baseline;
+  }
+  #I {
+    margin-left: 20px;
+  }
+  #II {
+    margin-left: 20px;
+  }
+  #III {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  #IV {
+    margin-left: 20px;
+  }
+  #V {
+    margin-left: 20px;
+  }
+  #VI {
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+  .icon {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .icons{
+    display:flex ;
+    margin:30px 0;
+  }
+  .copyright {
+    margin-top: -10px;
+    width: 300px;
+  }
+}
